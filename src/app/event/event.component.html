@@ -1,0 +1,4 @@
+<div class="event-container">
+    <div class="color" [ngClass]="event.isHoliday ? 'blue' : 'purple'"></div>
+    <p>{{ event.localName }} - {{ event.date.getDate() }}/{{ event.date.getMonth() + 1 }}/{{ event.date.getFullYear() }}</p>
+</div>

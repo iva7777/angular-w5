@@ -1,0 +1,13 @@
+<form (ngSubmit)="onSubmit()" #bookForm="ngForm">
+    <div class="input">
+        <label for="name">Име на събитието:</label>
+        <input id="name" name="name" type="text" [(ngModel)]="event.localName">
+    </div>
+
+    <div class="input">
+        <label for="date">Дата на събитието: </label>
+        <input id="date" name="date" type="date" [(ngModel)]="event.date">
+    </div>
+
+    <button type="submit">Създай събитие</button>
+</form>

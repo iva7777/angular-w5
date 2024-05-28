@@ -1,0 +1,31 @@
+.event-container {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.blue {
+    background-color: #007BFF;
+}
+
+.purple {
+    background-color: #6f42c1;
+}
+
+.event-container p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
